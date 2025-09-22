@@ -1,5 +1,3 @@
-cf_ai_workers_ai_chat
-
 An AI-powered chat application built on Cloudflare Workers, Workers AI (Llama 3.3), Durable Objects for memory, and Pages for a minimal UI. It demonstrates:
 
 - LLM inference via Workers AI
@@ -67,9 +65,3 @@ curl -sX POST "$WORKER_URL/api/chat" \
   -H 'content-type: application/json' \
   --data '{"sessionId":"demo","message":"Hello!"}' | jq
 ```
-
-License
-
-MIT
-
-
